@@ -1,0 +1,102 @@
+# Node.js
+node_modules/
+
+# Express.js
+*.log
+npm-debug.log*
+
+# MongoDB
+*.mdump
+*.oplog
+
+# React
+frontend/node_modules/
+frontend/build/
+
+# React build
+build/
+dist/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Dependency directories
+jspm_packages/
+typings/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+*.sublime-maps
+
+# WebStorm
+.idea/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+# Node generated files
+node_modules/
+npm-debug.log*
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Puppeteer
+.puppeteer/
+
+# Optional: If using Yarn package manager
+yarn-error.log
+
+# Optional: If using Prettier
+.prettierignore
+prettier.config.js
+
+# Optional: If using ESLint
+.eslintcache
+
+# Optional: If using Webpack
+webpack.config.js
+
+# Optional: If using Babel
+.babelrc
+
+# Optional: If using TypeScript
+tsconfig.json
